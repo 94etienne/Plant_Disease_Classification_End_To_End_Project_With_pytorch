@@ -1,0 +1,10 @@
+clone it
+enter in project ui folder
+
+run
+------
+npm install
+
+start a project
+--------------
+npm start
