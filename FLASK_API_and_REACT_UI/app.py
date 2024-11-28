@@ -13,7 +13,7 @@ CORS(app)
 
 # Initialize the model and load the weights
 model = CNNModel(n_classes=3)  # Adjust n_classes if needed (e.g., 3 for 3 classes)
-model.load_state_dict(torch.load("../4_CPU/model_1.pth"))  # Make sure the path is correct
+model.load_state_dict(torch.load("../version_2_on_CPU/model_1.pth"))  # Make sure the path is correct
 model.eval()  # Set the model to evaluation mode
 
 # Define the image transformation
